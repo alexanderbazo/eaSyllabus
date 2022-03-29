@@ -178,3 +178,25 @@ h3 {
     text-align: justify;
     line-height: 1.5em;
 }
+
+#content table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+
+#content table thead {
+    background-color: var(--space-cadet);
+    border-color: var(--space-cadet);
+    color: var(--mint-cream);
+    font-family: 'Roboto Serif', serif;
+}
+
+
+#content table thead th {
+    height: 2em;
+    line-height: 2em;
+}
+
+#content table tbody tr {
+}
