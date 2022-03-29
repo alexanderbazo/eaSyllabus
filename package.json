@@ -1,0 +1,23 @@
+{
+  "name": "easyllabus",
+  "version": "0.0.1",
+  "description": "Generates online syllabuses",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node build.js",
+    "build": "node build.js",
+    "prebuild": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Bazo <alexanderbazo@googlemail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "glob": "^7.2.0",
+    "glob-promise": "^4.2.2",
+    "jsdom": "^19.0.0",
+    "showdown": "^2.0.1",
+    "yaml": "^1.10.2"
+  }
+}
