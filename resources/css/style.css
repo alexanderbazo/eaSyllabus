@@ -13,20 +13,24 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
+    hyphens: auto;
     font-family: 'Roboto', sans-serif;
 }
 
 #sidebar {
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    align-items: center;
+    width: 22vw;
     height: 100vh;
     background-color: var(--space-cadet);
     color: var(--mint-cream);
 }
 
 #sidebar h1,
-h2 {
+#sidebar h2 {
+    width: 20vw;
+    word-wrap: break-word;
     text-align: center;
     font-family: 'Roboto Serif', serif;
     color: var(--cool-grey);
@@ -37,13 +41,17 @@ h2 {
     color: var(--mint-cream);
 }
 
+#sidebar a:hover {
+    color: var(--cool-grey);
+}
+
 #sidebar .chair {
     display: block;
     margin: 2vh 0;
     width: 20vw;
     text-align: center;
     text-decoration: none;
-    color: var(--cool-grey);
+    color: var(--mint-cream);
     font-family: 'Roboto Serif', serif;
 }
 
@@ -94,7 +102,7 @@ h2 {
 }
 
 #sidebar .trainers {
-    margin: 5vw 1vw;
+    margin: 5vh 0;
     padding: 0;
     list-style-type: none;
 }
@@ -138,11 +146,11 @@ h2 {
 }
 
 #sidebar .trainers .info .trainer-links a:hover {
-    color: var(--imperial-red);
+    color: var(--cool-grey);
 }
 
 #content {
-    width: 80vw;
+    width: 78vw;
     height: 96vh;
     padding: 2vh 2vw;
     overflow-y: scroll;
@@ -150,7 +158,7 @@ h2 {
 
 #content {
     scrollbar-width: thin;
-    scrollbar-color: #273043 #eff6ee;
+    scrollbar-color: var(--space-cadet) var(--mint-cream);
 }
 
 #content::-webkit-scrollbar {
@@ -158,11 +166,11 @@ h2 {
 }
 
 #content::-webkit-scrollbar-track {
-    background: #eff6ee;
+    background: var(--mint-cream);
 }
 
 #content::-webkit-scrollbar-thumb {
-    background-color: #273043;
+    background-color: var(--space-cadet);
     border-radius: 0px;
     border: none;
 }
@@ -172,6 +180,7 @@ h2,
 h3 {
     text-align: left;
     color: var(--space-cadet);
+    font-family: 'Roboto Serif', serif;
 }
 
 #content p {
@@ -198,5 +207,7 @@ h3 {
     line-height: 2em;
 }
 
-#content table tbody tr {
+#content table tbody td {
+    vertical-align: top;
+    max-width: 35vw;
 }
