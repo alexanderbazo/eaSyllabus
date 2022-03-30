@@ -1,6 +1,7 @@
 ---
 title: Multimedia Engineering
 page: mme-ss-2022
+language: de
 context:
   chair:
     name: Lehrstuhl für Medieninformatik
@@ -14,7 +15,7 @@ trainers:
 -
   name: Alexander Bazo
   role: Vorlesung
-  email:  alexander.bazo@ur.com
+  email:  alexander.bazo@ur.de
   website: https://go.ur.de/alexander-bazo
   image: https://www.uni-regensburg.de/assets/_processed_/6/5/csm_mi-teamfotos-alexander-bazo-closeup_c831edb7ee.jpg
 -
@@ -28,8 +29,14 @@ links:
   name: GRIPS
   link: https://elearning.uni-regensburg.de/course/view.php?id=55323
 -  
-  name: EXA
+  name: EXA (Vorlesung)
   link: https://spur.uni-regensburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=22976&periodId=306&navigationPosition=studiesOffered,courseoverviewShow
+-
+  name: EXA (Übung)
+  link: https://spur.uni-regensburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=22977&periodId=306&navigationPosition=studiesOffered,searchCourses
+-
+  name: Discord
+  link: https://discord.gg/JP7sFVGc
 ---
 
 ## Kursziele
