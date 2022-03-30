@@ -31,9 +31,10 @@ class CourseBuilder {
 
 class Course {
 
-  constructor(title, page, context, semester, links, trainers, html) {
+  constructor(title, page, language, context, semester, links, trainers, html) {
     this.title = title;
     this.page = page;
+    this.language = language;
     this.context = context;
     this.semester = semester;
     this.links = links;
@@ -43,7 +44,7 @@ class Course {
   }
 
   static fromJSON(json) {
-    return new Course(json.title, json.page, json.context, json.semester, json
+    return new Course(json.title, json.page, json.language, json.context, json.semester, json
       .links, json.trainers, json.html);
   }
 

@@ -20,6 +20,7 @@ class PageBuilder {
     let template = await loadPageTemplate(templateFile),
       document = new JSDOM(template).window.document;
     document.querySelector("title").innerHTML = course.title;
+    document.querySelector("#sidebar").setAttribute("lang", course.language);
     document.querySelector("#sidebar .chair").innerHTML = course.context.chair
       .name;
     document.querySelector("#sidebar .chair").href = course.context.chair
@@ -47,6 +48,7 @@ class PageBuilder {
       el.querySelector(".email a").href = `mailto:${trainer.email}`;
       document.querySelector(".trainers").append(el);
     });
+    document.querySelector("#content").setAttribute("lang", course.language);
     document.querySelector("#content").innerHTML = course.html;
     await fs.writeFile(`${process.env.OUTPUT_DIR}/${course.page}.html`, document.querySelector("html").innerHTML);
   }
