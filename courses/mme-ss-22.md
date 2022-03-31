@@ -59,7 +59,7 @@ Der Kurs Multimedia Engineering ist inhaltlich in zwei Bereiche gegliedert. (1) 
 | 6     | 1. Juni | Daten im Browser persistieren                             |Datenpersistierung in browserbasierten Anwendungen II ([To-Do-DB](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/todo-list-db)]           |               |
 | 7     | 8. Juni | Daten auf dem Server persistieren                         |Datenpersisiterung III ([To-Do-DB](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/todo-list-db)]      |               |
 | 8     | 15. Juni | tba                                                      | Desktop-Interaktion mit Drag'n'Drop ([Ambilight-Player Drag'n'Drop](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/ambi-player-drag-n-drop))         |               |
-| 9     | 22. Juni | Erste Schritte mit Node.js                               |Chat         |               |
+| 9     | 22. Juni | Erste Schritte mit Node.js                               |Einfache Chat-Anwendung auf der Basis von Node.js und WebSockets ([Node.js Chat](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/chat))         |               |
 | 10    | 29. Juni | Softwaretechnik: Grundlagen                              |   tba      |               |
 | 11    | 6. Juli | Softwaretechnik: Design & Architekturmuster               |   tba      |               |
 | 12    | 13. Juli | Softwaretechnik: Gemeinsam Software entwickeln           |   tba      |               |
