@@ -1,47 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css');
+@import url('desktop.css');
 
 :root {
-    --space-cadet: #273043ff;
-    --cool-grey: #9197aeff;
-    --mint-cream: #eff6eeff;
-    --imperial-red: #f02d3aff;
-    --medium-candy-apple-red: #dd0426ff;
+    --primary: #273043ff;
+    --secondary: #9197aeff;
+    --accent: #eff6eeff;
+    --font-color: #08090dff;
+    --font-sans-serif: 'Roboto', sans-serif;
+    --font-serif: 'Roboto Serif', serif;
 }
 
 body {
-    display: flex;
-    margin: 0;
-    padding: 0;
     hyphens: auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-sans-serif);
+    color: var(--font-color);
 }
 
-#sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 22vw;
-    height: 100vh;
-    background-color: var(--space-cadet);
-    color: var(--mint-cream);
+h1,h2,h3 {
+    font-family: var(--font-serif);
 }
 
 #sidebar h1,
 #sidebar h2 {
     word-wrap: break-word;
     text-align: center;
-    font-family: 'Roboto Serif', serif;
-    color: var(--cool-grey);
+    color: var(--secondary);
 }
 
 #sidebar a {
     text-decoration: underline;
-    color: var(--mint-cream);
-}
-
-#sidebar a:hover {
-    color: var(--cool-grey);
+    color: var(--accent);
 }
 
 #sidebar .chair {
@@ -49,17 +38,13 @@ body {
     margin: 2vh 0;
     text-align: center;
     text-decoration: none;
-    color: var(--mint-cream);
+    color: var(--accent);
     font-family: 'Roboto Serif', serif;
 }
 
 #sidebar .program {
     display: flex;
     justify-content: space-around;
-}
-
-#sidebar .program .degree {
-    font-size: 0.9em;
 }
 
 #sidebar .semester {
@@ -75,12 +60,13 @@ body {
 
 #sidebar .link-list li {
     display: block;
+    width: 22vw;
     margin: 0.5vw;
     padding: 0.25vw;
     border-radius: 3px;
-    background-color: var(--mint-cream);
+    background-color: var(--accent);
     text-align: center;
-    color: var(--cool-grey);
+    color: var(--secondary);
     font-weight: 700;
 }
 
@@ -88,14 +74,6 @@ body {
     display: block;
     text-decoration: none;
     color: var(--cool-grey);
-}
-
-#sidebar .link-list li:hover {
-    background-color: var(--cool-grey);
-}
-
-#sidebar .link-list li a:hover {
-    color: var(--mint-cream);
 }
 
 #sidebar .trainers {
@@ -106,8 +84,13 @@ body {
 
 #sidebar .trainers li.trainer {
     display: flex;
+    align-items: center;
     margin-top: 2vh;
-    align-items: flex-start;
+    width: 20vw;
+    padding: 1vw;
+    border-radius: 5px;
+    background-color: var(--accent);
+    color: var(--primary);
 }
 
 #sidebar .trainers img {
@@ -124,7 +107,7 @@ body {
 }
 
 #sidebar .trainers .info .name {
-    font-family: 'Roboto Serif', serif;
+    font-family: var(--font-serif);
     font-weight: 500;
 }
 
@@ -142,20 +125,13 @@ body {
     padding: 0;
 }
 
-#sidebar .trainers .info .trainer-links a:hover {
-    color: var(--cool-grey);
-}
-
-#content {
-    width: 78vw;
-    height: 96vh;
-    padding: 2vh 2vw;
-    overflow-y: scroll;
+#sidebar .trainers .info .trainer-links a {
+    color: var(--primary);
 }
 
 #content {
     scrollbar-width: thin;
-    scrollbar-color: var(--space-cadet) var(--mint-cream);
+    scrollbar-color: var(--primary) var(--accent);
 }
 
 #content::-webkit-scrollbar {
@@ -163,11 +139,11 @@ body {
 }
 
 #content::-webkit-scrollbar-track {
-    background: var(--mint-cream);
+    background: var(--accent);
 }
 
 #content::-webkit-scrollbar-thumb {
-    background-color: var(--space-cadet);
+    background-color: var(--primary);
     border-radius: 0px;
     border: none;
 }
@@ -176,8 +152,7 @@ body {
 h2,
 h3 {
     text-align: left;
-    color: var(--space-cadet);
-    font-family: 'Roboto Serif', serif;
+    color: var(--primary);
 }
 
 #content p {
@@ -188,99 +163,24 @@ h3 {
 #content table {
     width: 100%;
     border-collapse: separate;
-    border-spacing: 0 0.5em;
+    border-spacing: 0 1em;
 }
 
 #content table thead {
-    background-color: var(--space-cadet);
-    border-color: var(--space-cadet);
-    color: var(--mint-cream);
-    font-family: 'Roboto Serif', serif;
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--accent);
+    font-family: var(--font-serif);
 }
-
 
 #content table thead th {
     height: 2em;
     line-height: 2em;
+    font-size: 1em;
 }
 
 #content table tbody td {
     vertical-align: top;
     max-width: 35vw;
-}
-
-
-@media (max-width: 480px) {
-
-    body {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-        hyphens: auto;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    #sidebar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100vw;
-        min-height: 50vh;
-        background-color: var(--space-cadet);
-        color: var(--mint-cream);
-    }
-
-    #sidebar .link-list li {
-        display: block;
-        width: 80vw;
-        margin: 2vw;
-        padding: 1vw;
-        border-radius: 3px;
-        background-color: var(--mint-cream);
-        line-height: 2em;
-        text-align: center;
-        color: var(--cool-grey);
-        font-weight: 700;
-    }
-
-    #sidebar .trainers {
-        margin: 5vh 0;
-        padding: 0;
-        list-style-type: none;
-    }
-
-
-    #sidebar .trainers li.trainer {
-        display: flex;
-        width: 80vw;
-        margin-top: 5vh;
-        align-items: flex-start;
-    }
-
-    #sidebar .trainers img {
-        width: 15vw;
-        height: 15vw;
-        margin-right: 4vw;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    #sidebar .trainers .info .trainer-links {
-        display: flex;
-        justify-content: start;
-        gap: 5vw;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    #sidebar .trainers .info .trainer-links i {
-        font-size: 1.25em;
-    }
-
-    #content {
-        width: 94vw;
-        padding: 2vh 3vw;
-    }
+    line-height: 1.5em;
 }

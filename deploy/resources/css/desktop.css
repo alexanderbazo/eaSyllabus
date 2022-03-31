@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    height: 100vh;
+    background-color: var(--primary);
+    color: var(--accent);
+}
+
+#sidebar a:hover {
+    color: var(--secondary);
+}
+
+#sidebar .link-list li:hover {
+    background-color: var(--secondary);
+}
+
+#sidebar .link-list li a:hover {
+    color: var(--accent);
+}
+
+#sidebar .trainers .info .trainer-links a:hover {
+    color: var(--secondary);
+}
+
+#content {
+    width: 71vw;
+    height: 96vh;
+    padding: 2vh 2vw;
+    overflow-y: scroll;
+}
