@@ -7,7 +7,7 @@ var markdownConverter = new showdown.Converter({ tables: "true" });
 function parseFile(fileContent) {
   let yaml = fileContent.split("---")[1],
     meta = YAML.parse(yaml),
-    markdown = fileContent.substring(yaml.length + 1).replace("---", "").trim();
+    markdown = fileContent.replace(yaml, "").replace("------", "").trim();
   meta.html = markdownConverter.makeHtml(markdown);
   return meta;
 }
