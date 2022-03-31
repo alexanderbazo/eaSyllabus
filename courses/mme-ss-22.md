@@ -51,17 +51,20 @@ Der Kurs Multimedia Engineering ist inhaltlich in zwei Bereiche gegliedert. (1) 
 
 | Woche | Kurs am   | Thema                                                   | Inhalte | Übungsaufgabe |
 |:-----:|:---------:|:--------------------------------------------------------|:--------|:-------------:|
-| 1     | 27. April | JavaScript, HTML & CSS                                  |         |               |
-| 2     | 4. Mai | Versionsverwaltung mit Git                                 |         |               |
-| 3     | 11. Mai | Objektorientierung und Modularisierung in JavaScript      |         |               |
-| 4     | 18. Mai | Server-Client-Kommunikation für einfache Webanwendungen   |         |               |
-| 5     | 25. Mai | Audio, Video und der Canvas: Multimedia im Browser        |         |               |
-| 6     | 1. Juni | Daten im Browser persistieren                             |         |               |
-| 7     | 8. Juni | Daten auf dem Server persistieren                         |         |               |
-| 8     | 15. Juni | tba                                                      |         |               |
-| 9     | 22. Juni | Erste Schritte mit Node.js                               |         |               |
-| 10    | 29. Juni | Softwaretechnik: Grundlagen                              |         |               |
-| 11    | 6. Juli | Softwaretechnik: Design & Architekturmuster               |         |               |
-| 12    | 13. Juli | Softwaretechnik: Gemeinsam Software entwickeln           |         |               |
-| 13    | 20. Juli | Softwaretechnik: Automatische Bereitstellen von Software |         |               |
-| 14    | 27. Juli | Projekte: Kick-Off                                       |         |               |
+| 1     | 27. April | JavaScript, HTML & CSS                                  |Einführung in die Webentwicklung ([Simple Color Clicker](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/simple-color-clicker))  |               |
+| 2     | 4. Mai | Versionsverwaltung mit Git                                 |Versionsverwaltung mit git, GitHub und VSCode         |               |
+| 3     | 11. Mai | Objektorientierung und Modularisierung in JavaScript      |Modular aufgebaute browserbasierte Anwendungen ([To-Do Liste](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/todo-list))         |               |
+| 4     | 18. Mai | Server-Client-Kommunikation für einfache Webanwendungen   |Datenpersistierung in browserbasierten Anwendungen I ([To-Do-DB](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/todo-list-db)]        |               |
+| 5     | 25. Mai | Audio, Video und der Canvas: Multimedia im Browser        | Arbeiten mit dem Canvas im Browser ([Ambilight-Player](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/ambi-player))        |               |
+| 6     | 1. Juni | Daten im Browser persistieren                             |Datenpersistierung in browserbasierten Anwendungen II ([To-Do-DB](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/todo-list-db)]           |               |
+| 7     | 8. Juni | Daten auf dem Server persistieren                         |Datenpersisiterung III ([To-Do-DB](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/todo-list-db)]      |               |
+| 8     | 15. Juni | tba                                                      | Desktop-Interaktion mit Drag'n'Drop ([Ambilight-Player Drag'n'Drop](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/ambi-player-drag-n-drop))         |               |
+| 9     | 22. Juni | Erste Schritte mit Node.js                               |Einfache Chat-Anwendung auf der Basis von Node.js und WebSockets ([Node.js Chat](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Demos/chat))         |               |
+| 10    | 29. Juni | Softwaretechnik: Grundlagen                              |   tba      |               |
+| 11    | 6. Juli | Softwaretechnik: Design & Architekturmuster               |   tba      |               |
+| 12    | 13. Juli | Softwaretechnik: Gemeinsam Software entwickeln           |   tba      |               |
+| 13    | 20. Juli | Softwaretechnik: Automatische Bereitstellen von Software |   tba      |               |
+| 14    | 27. Juli | Projekte: Kick-Off                                       |   tba      |               |
+
+
+Audio, Video und der Canvas: Multimedia im Browser
