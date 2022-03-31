@@ -51,17 +51,20 @@ Der Kurs Multimedia Engineering ist inhaltlich in zwei Bereiche gegliedert. (1) 
 
 | Woche | Kurs am   | Thema                                                   | Inhalte | Übungsaufgabe |
 |:-----:|:---------:|:--------------------------------------------------------|:--------|:-------------:|
-| 1     | 27. April | JavaScript, HTML & CSS                                  |         |               |
-| 2     | 4. Mai | Versionsverwaltung mit Git                                 |         |               |
-| 3     | 11. Mai | Objektorientierung und Modularisierung in JavaScript      |         |               |
-| 4     | 18. Mai | Server-Client-Kommunikation für einfache Webanwendungen   |         |               |
-| 5     | 25. Mai | Audio, Video und der Canvas: Multimedia im Browser        |         |               |
-| 6     | 1. Juni | Daten im Browser persistieren                             |         |               |
-| 7     | 8. Juni | Daten auf dem Server persistieren                         |         |               |
-| 8     | 15. Juni | tba                                                      |         |               |
-| 9     | 22. Juni | Erste Schritte mit Node.js                               |         |               |
+| 1     | 27. April | JavaScript, HTML & CSS                                  |Einführung in die Webentwicklung     |               |
+| 2     | 4. Mai | Versionsverwaltung mit Git                                 |Versionsverwaltung mit git, GitHub und VSCode         |               |
+| 3     | 11. Mai | Objektorientierung und Modularisierung in JavaScript      |Modular aufgebaute browserbasierte Anwendungen (ToDo-Liste)         |               |
+| 4     | 18. Mai | Server-Client-Kommunikation für einfache Webanwendungen   |Datenpersistierung I         |               |
+| 5     | 25. Mai | Audio, Video und der Canvas: Multimedia im Browser        |Ambilight-Player        |               |
+| 6     | 1. Juni | Daten im Browser persistieren                             |Datenpersisiterung II         |               |
+| 7     | 8. Juni | Daten auf dem Server persistieren                         |Datenpersisiterung III      |               |
+| 8     | 15. Juni | tba                                                      |Ambilight-Player II         |               |
+| 9     | 22. Juni | Erste Schritte mit Node.js                               |Chat         |               |
 | 10    | 29. Juni | Softwaretechnik: Grundlagen                              |         |               |
 | 11    | 6. Juli | Softwaretechnik: Design & Architekturmuster               |         |               |
 | 12    | 13. Juli | Softwaretechnik: Gemeinsam Software entwickeln           |         |               |
 | 13    | 20. Juli | Softwaretechnik: Automatische Bereitstellen von Software |         |               |
 | 14    | 27. Juli | Projekte: Kick-Off                                       |         |               |
+
+
+Audio, Video und der Canvas: Multimedia im Browser
