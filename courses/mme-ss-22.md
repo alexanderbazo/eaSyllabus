@@ -36,7 +36,7 @@ links:
   link: https://spur.uni-regensburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=22977&periodId=306&navigationPosition=studiesOffered,searchCourses
 -
   name: Discord
-  link: https://discord.gg/JP7sFVGc
+  link: https://discord.gg/799rAZnQ6g
 ---
 
 ## Kursziele

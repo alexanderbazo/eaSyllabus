@@ -36,7 +36,7 @@ links:
   link: https://spur.uni-regensburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=35230&periodId=306&navigationPosition=courseoverviewShow
 -
   name: Discord
-  link: https://discord.gg/Nd5eXc7f
+  link: https://discord.gg/ZGymPZ8reb
 ---
 
 # Webtechnologien (Vorlesung und Übung)
