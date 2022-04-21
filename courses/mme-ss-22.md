@@ -47,6 +47,26 @@ Der Multimedia Engineering-Kurs (MME) richtet sich in erster Linie an Studierend
 
 Der Kurs Multimedia Engineering ist inhaltlich in zwei Bereiche gegliedert. (1) Zum einen lernen Sie den modernen Web Browser als Plattform für die Entwicklung und Bereitstellung von Webanwendungen kennen. Vor diesem Hintergrund werden die drei Basiskomponenten HTML, CSS und Javascript verwendet, um interaktive Anwendungen zu gestalten. Sie erhalten eine Übersicht über die verfügbaren Web-APIs und Browser-Funktionen, die Sie zur Realisierung solcher Software verwenden können. (2) Auf der Basis dieser Grundlage erweitern Sie Ihre Kenntnisse auf dem Gebiet der Softwaretechnik, in dem Sie sich intensiver und bewusster mit Entwurfsmustern, kollaborativer Softwareentwicklung und komplexer Programmiertechniken auseinandersetzen. Inhaltlich wird dabei auf den Einsatz des Versionskontrollsystems git im Rahmen der Softwareentwicklung und den besonderen Anforderungen und Möglichkeiten studentischer Softwareprojekte eingegangen. 
 
+## Leistungsnachweise und Prüfungen
+
+Die meisten Teilnehmer*innen des Kurses müssen für das erfolgreiche Bestehend des Moduls zwei Leistungsnachweise erbringen: Semesterbegleitend wird eine Studienleistung abgelegt, in der Sie ausgesuchte Kursinhalte im Rahmen praktischer Programmieraufgaben anwenden. Im Anschluss an die Vorlesungszeit implementieren Sie in kleinen Teams ein fortgeschrittenes Softwareprojekt.
+
+### Studienleistung
+
+Die Studienleistung besteht aus drei Programmieraufgaben. Diese werden im _Pair Programming_-Verfahren von zwei Student*innen gemeinsam bearbeitet. Vor der Abgabe erhalten die Teams _Peer Feedback_ durch andere Kursteilnehmer\*innen. Die Teams werden für alle Aufgaben zufällig neu zusammengestellt. Zum Bestehen der Studienleistung ist eine Bearbeitung aller drei Aufgaben notwendig, wobei für jede Aufgabe muss ein ernstzunehmender Lösungsversuch erarbeitet werden muss, in dem die zentralen Anforderungen umgesetzt werden. Weitere Informationen finden Sie auf der [Kurswebseite](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Aufgaben/index).
+
+#### Termine
+
+| Aufgabe                            | Bearbeitungszeitraum | Pairing Sessions      | Reviews (Peer Feedback) | Abgabe  |
+|:----------------------------------:|:--------------------:|:---------------------:|:-----------------------:|:-------:|
+| **Aufgabe 1** (Grundlagen)         | 16. bis 27. Mai      | 16. bis 22. Mai       | 22. bis 25. Mai         | 27. Mai |
+| **Aufgabe 2** (REST-Integration)   | 6. bis 17. Juni      | 6. bis 12. Juni       | 12. bis 15. Juni        | 17. Juni|
+| **Aufgabe 3** (Anwendungsbeispiel) | 27. Juni bis 8. Juli | 27. Juni bis 3. Juli  | 3. bis 5. Juli          | 8. Juli |
+
+### Projektarbeit
+
+Als Prüfungsleistung implementieren die Teilnehmer\*innen eine komplexe Webanwendung auf Basis der im Kurs vermittelten Methoden und Techniken. Die Themen dafür werden vorgegeben. Die Umsetzung erfolgt in kleinen Teams von idealerweise vier Student\*innen. Die Projekte starten in der letzten Vorlesungswoche und müssen bis zum Semesterende abgeschlossen werden. Weitere Informationen finden Sie auf der [Kurswebseite](https://multimedia-engineering.git-pages.uni-regensburg.de/mme-online/#/Projekte/index). Die aktuellen Themenvorschläge und die genauen Anforderungen werden ca. drei Wochen vor Vorlesungsende bekannt gegeben.
+
 ## Semesterplan
 
 | Woche | Kurs am   | Thema                                                   | Inhalte | Übungsaufgabe |
